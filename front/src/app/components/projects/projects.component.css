@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    font-family: "Radio Canada Big", sans-serif;
+
+    box-sizing: border-box;
+    color: white;
+}
+
+.fondo {
+    background-color: rgb(37, 36, 64);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 0.75;
+}
+
+.cardproject {
+    text-align: center;
+    width: 300px;
+    border: 2px solid black;
+    padding: 1em;
+    border-radius: 20px;
+
+}

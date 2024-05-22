@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { WebService } from '../../services/web.service';
 
 @Component({
   selector: 'app-tecnologias',
@@ -9,4 +10,13 @@ import { Component } from '@angular/core';
 })
 export class TecnologiasComponent {
 
+
+  webService = inject(WebService)
+  arrStudies: any = []
+
+  async ngOnInit() {
+    const respuesta = await this.webService.getStudies()
+    console.log(respuesta)
+    this.arrStudies = respuesta
+  }
 }

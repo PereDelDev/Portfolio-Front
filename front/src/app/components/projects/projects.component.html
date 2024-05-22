@@ -1,1 +1,11 @@
-<p>projects works!</p>
+<div class="fondo">
+    <div class="container">
+        @for(project of arrProjects; track $index){
+        <div class="cardproject">
+            <h3>{{project.name}}</h3>
+            <img [src]="project.imagen" alt="">
+            <p>{{project.descripcion}}</p>
+        </div>
+        }
+    </div>
+</div>

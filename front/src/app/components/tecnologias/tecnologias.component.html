@@ -1,1 +1,13 @@
-<p>tecnologias works!</p>
+<div class="fondo">
+    <div class="container">
+        @for(studie of arrStudies; track $index){
+        <div class="cardStudies">
+            <h3>{{studie.title}}</h3>
+            <p>{{studie.school}}</p>
+            <p>{{studie.type}}</p>
+            <p>{{studie.period}}</p>
+            <p>{{studie.descrption}}</p>
+        </div>
+        }
+    </div>
+</div>
