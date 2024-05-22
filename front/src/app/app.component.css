@@ -2,4 +2,11 @@
 
 * {
     font-family: "Radio Canada Big", sans-serif;
+    color: white;
+}
+
+.fondo {
+    background-color: rgb(37, 36, 64);
+    border-bottom: 2px black solid;
+
 }

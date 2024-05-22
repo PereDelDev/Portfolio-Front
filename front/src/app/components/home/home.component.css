@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+.fondo {
+    background-color: rgb(37, 36, 64);
+}
 
 img {
     display: block;
