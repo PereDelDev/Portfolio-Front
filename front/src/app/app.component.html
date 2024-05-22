@@ -1,21 +1,27 @@
-<div class="container">
+<div class="container ">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="navbar-brand" [routerLink]="['/home']">
+        <img
+          src="https://assets-global.website-files.com/637e4789a8e22009b5d4ba6a/638a507ed9557e2d350c7d04_icon-grey.png"
+          alt="" width="30" height="24">
+      </a>
+      <div class="navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" [routerLink]="['/home']" aria-current="page">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" [routerLink]="['/experience']">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" [routerLink]="['/studies']">Studies & Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/projects']">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/contact']">Contact</a>
           </li>
 
         </ul>

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    font-family: "Radio Canada Big", sans-serif;
+
+    box-sizing: border-box;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.75;
+    position: relative;
+}
+
+h2 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.titulo {
+    background-image: url("https://d2a5isokysfowx.cloudfront.net/wp-content/uploads/2022/01/Programa-con-R-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
+
+.left {
+    width: 20%;
+    padding-left: 5em;
+}
+
+.right {
+    width: 20%;
+}
