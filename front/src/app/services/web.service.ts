@@ -7,7 +7,7 @@ import { firstValueFrom } from 'rxjs';
 })
 export class WebService {
 
-  private baseUrl: string = 'http://localhost:3000/api'
+  private baseUrl: string = 'https://portfolio-back-bbul.onrender.com/api'
 
   private httpClient = inject(HttpClient)
 
